@@ -31,8 +31,8 @@
     <body>
         <div class="container">
             <br>
-            <h1 align="center">PILIH DATA</h1>
-            <button class="btn btn-success mb-3" id="cetak">Print</button>
+            <h1 align="center">PILIH DATA BARANG</h1>
+            <button class="btn btn-primary mb-3" id="cetak">Print</button>
             <select name="multi_search_filter" id="multi_search_filter" class="form-control" multiple>
             <?php
             include('koneksi.php');

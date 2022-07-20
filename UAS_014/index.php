@@ -4,7 +4,7 @@
         <title>UAS PROWEB</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
         <script src="jquery.PrintArea.js"></script>
@@ -15,12 +15,12 @@
             <br />
         <br>
             <h2 align="center">DATA BARANG</h2><br/>
-            <a href="print.php"><h4><u>PRINT</u></h4></a>
+            <a href="print.php"><button class="btn btn-secondary " id="cetak">PRINT</button></a>
         <input type="hidden" name="id" id="id" />
             <div style="clear:both"></div>
             <br />
             <div class="table-responsive" >
-                <table class="table table-striped table-bordered">
+                <table class="table table-light table-striped table-bordered">
                    <thead >
                          <tr>
                             <th><center>ID</center></th>
